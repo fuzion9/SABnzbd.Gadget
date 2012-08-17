@@ -7,7 +7,7 @@ SABnzbd Queue Monitor Gadget for Windows Sidebar
 ![SABnzbdGad ss2](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss2.jpg)
 ![SABnzbdGad ss3](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss3.JPG)
 
-*![SABnzbdGad prebuilt](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/build/SABnzbd.gadget) Gadget available in build folder. (this is just everything zipped and renamed .gadget)
+*![SABnzbd.Gadget preBuilt](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/build/SABnzbd.gadget) stored in build folder. (this is just everything zipped and renamed .gadget)
 
 Future Enhancements:
 --------------------
