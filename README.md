@@ -3,17 +3,19 @@ SABnzbd Queue Monitor Gadget for Windows Sidebar
 
 ## This is a queue monitor only, it currently provides no interaction with SAB.
 
-![SABnzbdGad ss](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss.jpg)
-![SABnzbdGad ss2](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss2.jpg)
-![SABnzbdGad ss3](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss3.JPG)
+![SABnzbdGad ss](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss.jpg) 
+ ![SABnzbdGad ss2](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss2.jpg)
+ ![SABnzbdGad ss3](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss3.JPG)
 
 Prebuilt Gadget available in build folder. (this is just everything zipped and renamed .gadget)
 
 Future Enhancements:
 --------------------
 * Store settings in registry.  This gadget uses a local .ini file to persist settings.
+* Move jQuery source to local. (currently grabs jquery from google)
 * History Flyout
 * Pause/Resume
+* Get Better Screenshots
 
 
 
