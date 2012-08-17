@@ -3,11 +3,11 @@ SABnzbd Queue Monitor Gadget for Windows Sidebar
 
 ## This is a queue monitor only, it currently provides no interaction with SAB.
 
-*![SABnzbdGad ss](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss.jpg)
+![SABnzbdGad ss](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss.jpg)
 
-*![SABnzbdGad ss2](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss2.jpg)
+![SABnzbdGad ss2](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss2.jpg)
 
-*![SABnzbdGad ss3](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss3.JPG)
+![SABnzbdGad ss3](https://github.com/fuzion9/SABnzbd.Gadget/raw/master/images/ss3.JPG)
 
 Prebuilt Gadget available in build folder. (this is just everything zipped and renamed .gadget)
 
