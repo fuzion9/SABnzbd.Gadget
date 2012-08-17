@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/gadget.css" rel="stylesheet" type="text/css">
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<title>SABnzbd Queue Monitor</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js"></script>
+<script type="text/javascript" src="js/SettingsManager.js"></script>
+<script src="js/gadget.js"></script>
+</head>
+<body>
+<g:background id="background" src="images/bg.png" style="position:absolute;top:0;left:0;z-index:-999;no=repeat;" />
+<div id="main">
+    <div id="header">
+    	<div id='title'>SABnzbd Status</div>
+    	<div id="speed"></div>
+    </div>
+    <div id="queue"><a href='http://sabURL' style="text-decoration:none; cursor:help">
+    	<div id="queue_title">Queue:</div>
+    	<div id="p0_container" class="p_" style="display:none">
+    		<div id="p0" class="p_bar" style="height:12px"></div>
+        	<div id="p0_text" class="p_text">0%</div>
+        	<div id="p0_filename" class="p_filename"></div>
+    	</div>
+        <div id="p1_container" class="p_" style="display:none">
+    		<div id="p1" class="p_bar" style="height:12px"></div>
+        	<div id="p1_text" class="p_text">0%</div>
+        	<div id="p1_filename" class="p_filename"></div>
+    	</div>
+    	<div id="p2_container" class="p_" style="display:none">
+    		<div id="p2" class="p_bar" style="height:12px"></div>
+        	<div id="p2_text" class="p_text">0%</div>
+        	<div id="p2_filename" class="p_filename"></div>
+    	</div>
+    	<div id="p3_container" class="p_" style="display:none">
+    		<div id="p3" class="p_bar" style="height:12px"></div>
+        	<div id="p3_text" class="p_text">0%</div>
+        	<div id="p3_filename" class="p_filename"></div>
+    	</div>
+    	<div id="p4_container" class="p_" style="display:none">
+    		<div id="p4" class="p_bar" style="height:12px"></div>
+        	<div id="p4_text" class="p_text">0%</div>
+        	<div id="p4_filename" class="p_filename"></div>
+    	</div>
+  </div>
+   	  </a>
+    <div id="status">Disconnected</div>
+</div>
+<div id="debugGadget">
+<textarea id='debug' name='debug' style="width:600px; height:500px; font-size:10px; display:none"></textarea>
+</div>
+</body>
+</html>

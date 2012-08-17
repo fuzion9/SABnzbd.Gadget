@@ -1,0 +1,52 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SABnzbd Queue Monitor</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+<script src="js/settings.js"></script>
+<script type="text/javascript" src="js/SettingsManager.js"></script>
+
+</head>
+<body style="width:300px; height:250px; margin:0px">
+<div id='title' style="font-family:Segoe UI; font-size:14px; font-weight:bold; height:25px; border-bottom:1px solid #000; margin-bottom:10px;">Settings</div>
+<table width="300" border="0" style="font-family:Segoe UI; font-size:12px">
+  <tr>
+    <td width="106" align="right">SABnzbd Server: </td>
+    <td width="184"><input name="sabURL" id="sabURL" type="text" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" style="font-size:10px"><p>Hostname and port only, do not include http, or /sabnzbd<br>
+      <strong>Examples:</strong>        loclahost:8080, 
+        192.168.1.10:8080, servername:port<br>
+        <br>
+    </p></td>
+  </tr>
+  <tr>
+    <td align="right">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="right">SAB API Key:</td>
+    <td><input name="sabAPIKey" type="text" id="sabAPIKey" size="40" style="font-size:10px" /></td>
+  </tr>
+  <tr>
+    <td align="right">Refresh (Idle): </td>
+    <td><input name="idleRefresh" id="idleRefresh" type="text" size="5" />
+ms</td>
+  </tr>
+  <tr>
+    <td align="right">Refresh (Active): </td>
+    <td><input name="activeRefresh" id="activeRefresh" type="text" size="5" />
+ms </td>
+  </tr>
+  <tr>
+    <td align="right">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"> SAB Monitor Version 0.9.1 by fuzion9@gmail.com</td>
+  </tr>
+</table><br>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>  
+<gadget>  
+  <name>SABnzbd Queue Monitor</name>  
+  <namespace><!--_locComment_text="{Locked}"-->sabnzbd.Gadgets</namespace>  
+    <version><!--_locComment_text="{Locked}"-->0.0.1.0</version>  
+  <author name="Dave Field">  
+  </author>  
+  <copyright><!--_locComment_text="{Locked}"-->&#169; 2012</copyright>  
+  <description>SABnzbd Queue Monitor Gadget</description>  
+  <icons>  
+    <icon height="48" width="48" src="images/sab2_32.png" />  
+  </icons>  
+  <hosts>  
+    <host name="sidebar">  
+      <base type="HTML" apiVersion="1.0.0" src="SABnzbdGadget.html" />  
+      <permissions>  
+        <!--_locComment_text="{Locked}"-->Full  
+      </permissions>  
+      <platform minPlatformVersion="1.0" />  
+    </host>  
+  </hosts>  
+</gadget>
