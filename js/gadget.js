@@ -14,6 +14,7 @@ var	doProcessOK=0;
 document.onreadystatechange = function(){    
     if(document.readyState=="complete"){
 		queueLayer = $('#queue').html();
+		System.Gadget.Flyout.file = "flyout.html"; 
         System.Gadget.settingsUI = "settings.html";
         System.Gadget.onSettingsClosed = settingsClosed;
 		startUp();
@@ -116,4 +117,23 @@ function loadSettings(){
 function stopTimer(){
 	doProcessOK=0;
 	clearTimeout(timer);
+}
+
+function showFlyout(){
+	if (!System.Gadget.Flyout.show){
+		System.Gadget.Flyout.show = true; 
+	}
+}
+
+function hideFlyout(){
+		System.Gadget.Flyout.show = false; 
+}
+
+
+function toggleFlyout(){
+	if (System.Gadget.Flyout.show){
+		System.Gadget.Flyout.show = false; 
+	} else {
+		System.Gadget.Flyout.show = true; 
+	}
 }

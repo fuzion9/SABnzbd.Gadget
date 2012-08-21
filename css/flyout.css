@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin: 0;
+    width: 300px;
+    height: 150px;
+    font-family: Segoe UI;
+	background:#333;
+    font-size: 10px;
+	color:#FFF;
+}
+
+#header{
+	font-size:12px;
+	font-weight:bold;
+	height:14px;
+	width:295px;
+	padding:3px;
+	margin-left:5px;
+	text-decoration:none;
+	color:#FFF;
+}
+
+#history{
+	color:#666;
+    width: 298px;		
+	height:111px;
+	font-size:9px;
+	margin-left:2px;
+	overflow:hidden;
+}
+
+#status{
+	color:#FFF;
+	text-align:center;
+    width: 300px;		
+	height:35px;
+	font-size:9px;
+	margin-top:4px;
+    overflow: hidden;
+}
+
+
+#history_container{
+	color:#000;
+	width:295px;
+	height:17px;
+	padding:0px;
+	background:#CCC;
+	border-bottom:1px solid #777; 
+}
+
+#history_status{
+	color:#FFF;
+	text-align:center;
+    width: 9px;		
+	height:9px;
+}
+
+#history_title{
+	width:170px;
+	font-size:9px;
+}
+
+#history_size{
+	width:50px;
+	font-size:9px;
+}
+
+#history_script{
+	width:50px;
+	font-size:9px;
+}

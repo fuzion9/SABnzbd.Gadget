@@ -19,7 +19,7 @@ body{
 }
 
 #header{
-	background:url(../images/sab2_32.png) no-repeat;
+/*	background:url(../images/sab2_32.png) no-repeat; */
 	font-size:10px;
 	font-weight:bold;
 	height:35px;
@@ -27,14 +27,15 @@ body{
 	text-align:right;
 	padding:3px;
 	margin-left:4px;
-	margin-top:4px;
 	text-decoration:none;
 	color:#FFF;
+	white-space:nowrap;
 
 }
 #speed{
 	text-decoration:none;
 	color:#FFF;
+	font-size:13px;
 	font-weight:normal;
 	padding-top:2px;
 	margin-left:10px;

@@ -2,7 +2,7 @@
 <gadget>  
   <name>SABnzbd Queue Monitor</name>  
   <namespace><!--_locComment_text="{Locked}"-->sabnzbd.Gadgets</namespace>  
-    <version><!--_locComment_text="{Locked}"-->0.0.1.0</version>  
+    <version><!--_locComment_text="{Locked}"-->0.0.1.1</version>  
   <author name="Dave Field">  
   </author>  
   <copyright><!--_locComment_text="{Locked}"-->&#169; 2012</copyright>  

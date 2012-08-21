@@ -2,22 +2,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="css/gadget.css" rel="stylesheet" type="text/css">
-<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 <title>SABnzbd Queue Monitor</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js"></script>
+<!--jquery 1.7.2-->
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="js//jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
 <script type="text/javascript" src="js/SettingsManager.js"></script>
 <script src="js/gadget.js"></script>
 </head>
 <body>
 <g:background id="background" src="images/bg.png" style="position:absolute;top:0;left:0;z-index:-999;no=repeat;" />
 <div id="main">
-    <div id="header">
-    	<div id='title'>SABnzbd Status</div>
+    <div id="header"><div id='img' style="float:left"><img src="images/sab2_32.png" onClick="toggleFlyout()" title="View History"></div>
+    	<div id='title'>Queue Monitor</div>
     	<div id="speed"></div>
     </div>
     <div id="queue"><a href='http://sabURL' style="text-decoration:none; cursor:help">
-    	<div id="queue_title">Queue:</div>
+    	<div id="queue_title" title="Open SABnzbd">Queue:</div>
     	<div id="p0_container" class="p_" style="display:none">
     		<div id="p0" class="p_bar" style="height:12px"></div>
         	<div id="p0_text" class="p_text">0%</div>
@@ -38,7 +39,7 @@
         	<div id="p3_text" class="p_text">0%</div>
         	<div id="p3_filename" class="p_filename"></div>
     	</div>
-    	<div id="p4_container" class="p_" style="display:none">
+    	<div id="p4_container" class="p_" style="display:none;">
     		<div id="p4" class="p_bar" style="height:12px"></div>
         	<div id="p4_text" class="p_text">0%</div>
         	<div id="p4_filename" class="p_filename"></div>
